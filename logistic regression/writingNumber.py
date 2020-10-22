@@ -13,7 +13,7 @@ raw_y = data['y']
 # print(data['Y'].shape)
 
 
-# 用向量化去迭代，不用for循环，所以之前写的代码可以完全拿过来用
+# 决策函数
 def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 
