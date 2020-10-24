@@ -1,3 +1,6 @@
+# author : 'wangzhong';
+# date: 18/10/2020 19:38
+
 import numpy as np
 from scipy.io import loadmat
 from scipy.optimize import minimize
