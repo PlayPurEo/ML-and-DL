@@ -4,7 +4,7 @@
 import numpy as np
 from scipy.io import loadmat
 
-data = loadmat("../logistic regression/ex3data1.mat")
+data = loadmat("../2.logistic regression/ex3data1.mat")
 raw_X = data['X']
 raw_y = data['y']
 X = np.insert(raw_X, 0, values=1, axis=1)
