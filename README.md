@@ -13,6 +13,7 @@ self-learning
     1. 手写kmeans算法
     2. 讨论随机初始点选取的影响
     3. 用kmeans对图片进行压缩
+    4. 用sklearn的Kmeans进行模型训练
 ---
 ### 2020.11.01更新
 * 更新SVM算法的代码，非手写，使用sklearn，主要是熟悉工具的使用
