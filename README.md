@@ -8,6 +8,11 @@ self-learning
 
 ## 更新日志
 
+### 2020.11.17更新
+* 更新疫情预测实战
+    1. 使用sklearn的linear model进行简单预测
+    2. 使用sklearn多项式函数进行预测（随着degree增加会过拟合）
+---
 ### 2020.11.08更新
 * 更新无监督模型kmeans手写代码
     1. 手写kmeans算法
