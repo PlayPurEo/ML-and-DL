@@ -1,6 +1,17 @@
 # ML-and-DL
 self-learning
 
+## Author
+wangzhong
+
+## 目录
+* basic-model
+    * 机器学习手写算法和实战，如线性回归，LR,SVM,KMEANS等
+* math
+    * 算法数学原理推导
+* python-dask
+    * dask分布式计算框架教程和使用
+--- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
 如果无法正常显示，请用typora打开查看
@@ -8,6 +19,10 @@ self-learning
 
 ## 更新日志
 
+### 2020.11.18更新
+* 优化项目模块结构
+* dask分布式计算框架教程和实战
+---
 ### 2020.11.17更新
 * 更新疫情预测实战
     1. 使用sklearn的linear model进行简单预测

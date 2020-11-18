@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 data = loadmat("bird_small.mat")
 A = data['A']
-
+# imshow()显示图像时对double型是认为在0~1范围内，即大于1时都是显示为白色，而imshow显示uint8型时是0~255范围
 A = A / 255
 # 不知道行数是多少，但是列数要求是3，可以用-1来表示
 A = A.reshape(-1, 3)
