@@ -5,12 +5,6 @@ import numpy as np
 from scipy.io import loadmat
 import matplotlib.pyplot as plt
 
-data = loadmat("ex7data2.mat")
-X = data['X']
-
-plt.scatter(X[:, 0], X[:, 1])
-plt.show()
-
 
 # 对于每个样本，找到所属簇类的索引
 def find_label(X, centros):
@@ -24,11 +18,6 @@ def find_label(X, centros):
     return np.array(idx)
 
 
-centros = np.array([[3, 3], [6, 2], [8, 5]])
-idx = find_label(X, centros)
-# print(idx)
-
-
 def compute_centros(X, idx, k):
     centroids = []
     for i in range(k):
@@ -40,8 +29,6 @@ def compute_centros(X, idx, k):
 
     return np.array(centroids)
 
-
-# print(compute_centros(X, idx, k=3))
 
 def run_kmeans(X, centros, iter):
     k = len(centros)
@@ -64,20 +51,32 @@ def plot_data(X, idx, centros_all):
     plt.plot(centros_all[:,:,0], centros_all[:,:,1],'kx--')
 
 
-idx_final, centros_all = run_kmeans(X, centros, iter=10)
-plot_data(X, idx_final, centros_all)
-plt.show()
-
-
 # 随机初始化中心位置和个数
 def init_centros(X, k):
     index = np.random.choice(len(X), k)
     return X[index]
 
 
-# print(init_centros(X, k=3))
+if __name__ == '__main__':
+    data = loadmat("ex7data2.mat")
+    X = data['X']
 
-for i in range(4):
-    idx, centros_all = run_kmeans(X, init_centros(X, k=3), iter=10)
-    plot_data(X, idx, centros_all)
+    plt.scatter(X[:, 0], X[:, 1])
     plt.show()
+
+    centros = np.array([[3, 3], [6, 2], [8, 5]])
+    idx = find_label(X, centros)
+    # print(idx)
+
+    # print(compute_centros(X, idx, k=3))
+
+    idx_final, centros_all = run_kmeans(X, centros, iter=10)
+    plot_data(X, idx_final, centros_all)
+    plt.show()
+
+    # print(init_centros(X, k=3))
+
+    for i in range(4):
+        idx, centros_all = run_kmeans(X, init_centros(X, k=3), iter=10)
+        plot_data(X, idx, centros_all)
+        plt.show()

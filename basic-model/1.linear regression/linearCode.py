@@ -4,7 +4,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+"""
+吴恩达线性回归作业
+"""
 path = 'ex1data1.txt'
 data = pd.read_csv(path, header=None, names=['Population', 'Profit'])
 print(data.head())

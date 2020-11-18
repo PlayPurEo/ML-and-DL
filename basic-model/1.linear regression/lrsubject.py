@@ -8,7 +8,9 @@ import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.preprocessing import StandardScaler
-
+"""
+该项目为简单的使用线性回归对法国疫情人数的预测
+"""
 data = pd.read_csv('owid-covid-data.csv')
 data_france = data[data['location'] == 'France']
 france = data_france[:]['total_cases'].values.astype(int)
