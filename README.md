@@ -11,6 +11,9 @@ wangzhong
     * 吴恩达机器学习作业
 * ### math
     * 算法数学原理推导
+* ### papers
+    * 阅读过的经典论文
+    * [深度学习巨头Lecun论文主页](http://yann.lecun.com/exdb/publis/index.html)
 * ### python-dask
     * dask分布式计算框架教程和使用
 --- 
@@ -21,6 +24,9 @@ wangzhong
 
 ## 更新日志
 
+### 2020.11.28更新
+* 增加论文模块
+---
 ### 2020.11.26更新
 * 手写推荐算法
     1. 应用场景为用户推荐电影
