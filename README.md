@@ -16,6 +16,8 @@ wangzhong
     * [深度学习巨头Lecun论文主页](http://yann.lecun.com/exdb/publis/index.html)
 * ### python-dask
     * dask分布式计算框架教程和使用
+* ### pytorch
+    * basic-operate: pytorch简单基础操作和操作导图
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -24,6 +26,11 @@ wangzhong
 
 ## 更新日志
 
+### 2020.12.04更新
+* 增加pytorch使用模块
+    1. pytorch简单基础操作
+    2. pytorch基础操作导图
+---
 ### 2020.11.28更新
 * 增加论文模块
 ---
