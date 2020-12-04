@@ -33,3 +33,5 @@ a = np.ones((5, 3))
 b = torch.from_numpy(a)
 b[0][0] = 100
 print(a)
+# 查看gpu版是否安装成功
+print(torch.cuda.is_available())

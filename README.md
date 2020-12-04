@@ -30,6 +30,7 @@ wangzhong
 * 增加pytorch使用模块
     1. pytorch简单基础操作
     2. pytorch基础操作导图
+    3. windows配置cuda+cudnn+pytorch查看GPU版是否安装成功
 ---
 ### 2020.11.28更新
 * 增加论文模块
