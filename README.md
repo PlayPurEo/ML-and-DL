@@ -18,6 +18,8 @@ wangzhong
     * dask分布式计算框架教程和使用
 * ### pytorch
     * basic-operate: pytorch简单基础操作和操作导图
+    * regression-practice：简单的linear神经网络搭建
+    * CNN：卷积神经网络实战
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -26,6 +28,13 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.06更新
+* 更新了pytorch上的首个卷积神经网络搭建和mnist分类实战
+    1. 两层卷积 + RELU + max polling + 一层全连接
+    2. batch size为64
+    3. 损失函数为交叉熵损失函数
+    4. 最外层迭代次数为3，内部每训练100个batch size进行一次测试集测试和准确率打印
+---
 ### 2021.01.04更新
 * 更新了torch的网络模型回归实战
     1. 手写梯度下降进行模型训练
