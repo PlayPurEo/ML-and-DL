@@ -1,6 +1,11 @@
 # author : 'wangzhong';
 # date: 06/01/2021 19:31
 
+"""
+1.用pytorch搭建一个完整的卷积神经网络
+进行mnist手写数字实战
+"""
+
 import torch
 import torch.nn as nn
 import torch.optim as optim

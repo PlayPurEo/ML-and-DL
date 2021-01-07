@@ -28,6 +28,14 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.07更新
+* transform数据扩充实战，ImageFolder和DataLoader
+    1. 通过transform变换数据后，通过loader还原为图像类型并打印
+* 迁移学习数据处理部分
+    1. 迁移学习未完成，只是做了数据的transform和batch（一个函数）
+    2. 计划迁移resnet进行部分训练
+---
+
 ### 2021.01.06更新
 * 更新了pytorch上的首个卷积神经网络搭建和mnist分类实战
     1. 两层卷积 + RELU + max polling + 一层全连接
