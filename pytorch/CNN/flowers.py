@@ -208,7 +208,7 @@ def flower_start():
         param.requires_grad = True
 
     # 再继续训练所有的参数，学习率调小一点
-    optimizer = optim.Adam(model_ft.parameters(), lr=1e-4)
+    optimizer = optim.Adam(params_need_update, lr=1e-4)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 
     # 损失函数
