@@ -111,7 +111,6 @@ def start():
                     output = myModel(valInputs)
                     right = accuracy(output, valLabels)
                     val_right.append(right)
-
                 # 准确率计算
                 train_r = (sum([tup[0] for tup in train_right]), sum([tup[1] for tup in train_right]))
                 val_r = (sum([tup[0] for tup in val_right]), sum([tup[1] for tup in val_right]))
@@ -124,6 +123,4 @@ def start():
 
 
 if __name__ == '__main__':
-    criterion = nn.CrossEntropyLoss()
-    output = torch.randn(1, 5, requires_grad=True)
-    label = torch.empty(1, dtype=torch.long).random_(5)
+    start()

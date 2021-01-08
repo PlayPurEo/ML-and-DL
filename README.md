@@ -28,6 +28,13 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.08更新
+* resnet迁移学习实战
+    1. model为resnet152
+    2. 102图片分类
+    3. 切记使用GPU进行训练，CPU非常非常慢
+    4. 先进行FC的参数训练，再进行全参数训练
+---
 ### 2021.01.07更新
 * transform数据扩充实战，ImageFolder和DataLoader
     1. 通过transform变换数据后，通过loader还原为图像类型并打印
