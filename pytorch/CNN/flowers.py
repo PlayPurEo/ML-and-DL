@@ -301,7 +301,7 @@ def wz_model_train(model, dataloaders, criterion, optimizer, scheduler, filename
             if phase == 'valid':
                 val_acc_history.append(epoch_acc)
                 valid_losses.append(epoch_loss)
-                scheduler.step(epoch_loss)
+                scheduler.step()
             if phase == 'train':
                 train_acc_history.append(epoch_acc)
                 train_losses.append(epoch_loss)
