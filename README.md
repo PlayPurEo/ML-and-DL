@@ -20,6 +20,7 @@ wangzhong
     * basic-operate: pytorch简单基础操作和操作导图
     * regression-practice：简单的linear神经网络搭建
     * CNN：卷积神经网络实战
+    * RNN: 循环神经网络实战
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -28,6 +29,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.11更新
+* pytorch文本分类项目代码
+    1. open-source文件下为开源项目，非本人所写代码
+    2. 旨在了解pytorch是如何去搭建RNN网络模型的
+---
 ### 2021.01.08更新
 * resnet迁移学习实战
     1. model为resnet152
