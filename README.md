@@ -21,6 +21,7 @@ wangzhong
     * regression-practice：简单的linear神经网络搭建
     * CNN：卷积神经网络实战
     * RNN: 循环神经网络实战
+    * tensor-board pytorch可视化工具
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -29,6 +30,13 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.12更新
+* pytorch可视化工具tensorboardX学习
+    1. [tensorboardX gitHub主页](https://github.com/lanpa/tensorboardX)
+    2. pip install tensorboardX进行安装
+    3. 注意该三方库依赖tensorflow，需要安装tensorflow
+    4. 运行代码后，需要在命令行进行tensorboard启动，具体语句在其github主页
+---
 ### 2021.01.11更新
 * pytorch文本分类项目代码
     1. open-source文件下为开源项目，非本人所写代码
