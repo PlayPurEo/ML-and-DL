@@ -21,8 +21,9 @@ wangzhong
 * ### pytorch
     * basic-operate: pytorch简单基础操作和操作导图
     * regression-practice：简单的linear神经网络搭建
-    * CNN：卷积神经网络实战
+    * CNN: 卷积神经网络实战
     * RNN: 循环神经网络实战
+    * GAN: 对抗生成网络实战
     * tensor-board pytorch可视化工具
 --- 
 ## 注意！
@@ -32,6 +33,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.15更新
+* GAN对抗生成网络简单实战
+    1. BCE-loss理解
+    2. 简单GAN网络MNIST数据实战
+---
 ### 2021.01.14更新
 * 增加新的大模块：dl-model
     1. 该模块主要是运用成熟框架进行主流模型的搭建
