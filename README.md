@@ -9,6 +9,8 @@ wangzhong
     * 机器学习手写算法和实战，如线性回归，LR,SVM,KMEANS等
     * 异常检测实战和推荐算法实战等
     * 吴恩达机器学习作业
+* ### dlmodel
+    * 深度学习主要模型复现，主要是CNN方向
 * ### math
     * 算法数学原理推导
 * ### papers
@@ -30,6 +32,12 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.14更新
+* 增加新的大模块：dl-model
+    1. 该模块主要是运用成熟框架进行主流模型的搭建
+    2. 目前计划使用框架为pytorch
+    3. 模型主要偏CNN和CV方向
+---
 ### 2021.01.12更新
 * pytorch可视化工具tensorboardX学习
     1. [tensorboardX gitHub主页](https://github.com/lanpa/tensorboardX)
