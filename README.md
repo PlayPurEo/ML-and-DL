@@ -33,6 +33,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.16更新
+* CycleGAN图像转换模型开源项目代码学习（阅读为主）
+    1. [原项目github](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+    2. 主要是看生成器和判别器的搭建，和loss函数的学习
+---
 ### 2021.01.15更新
 * GAN对抗生成网络简单实战
     1. BCE-loss理解
