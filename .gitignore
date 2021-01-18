@@ -8,3 +8,4 @@
 out
 gen
 .DS_Store
+*/__pycache__
