@@ -24,7 +24,8 @@ wangzhong
     * CNN: 卷积神经网络实战
     * RNN: 循环神经网络实战
     * GAN: 对抗生成网络实战
-    * tensor-board pytorch可视化工具
+    * tensor-board: pytorch可视化工具
+    * videoprocess: c3d网络模型实战
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -33,6 +34,14 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.18更新
+* 新增阅读论文c3d网络模型进行视频动作分类
+* c3d-UCF-101项目实战（论文代码复现）
+    1. 视频动作101个分类，训练时间非常久，GPU也需要训练2-3天
+    2. 数据集UCF-101压缩包有6个多G，请进入下面的网址自行下载
+    3. [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php)
+    4. 重点是理解三维卷积网络
+---
 ### 2021.01.16更新
 * CycleGAN图像转换模型开源项目代码学习（阅读为主）
     1. [原项目github](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)

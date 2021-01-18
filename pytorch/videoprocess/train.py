@@ -1,6 +1,8 @@
 # author : 'wangzhong';
 # date: 18/01/2021 17:07
 
+# UCF-101训练集下载地址：https://www.crcv.ucf.edu/data/UCF101.php
+
 import torch
 import os
 import glob
