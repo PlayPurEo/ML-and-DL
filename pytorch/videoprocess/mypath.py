@@ -11,8 +11,8 @@ class Path:
 
     @staticmethod
     def db_dir(dataset):
-        root_dir = "./data/UCF-101"
-        output_dir = "./data_process/ucf101"
+        root_dir = "data/UCF-101"
+        output_dir = "data_process/ucf101"
         return root_dir, output_dir
 
 

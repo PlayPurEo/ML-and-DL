@@ -126,8 +126,10 @@ class VideoDataset(Dataset):
             os.mkdir(os.path.join(self.output_dir, 'test'))
 
         # Split train/val/test sets
+        # file为每个类别的文件名字
         for file in os.listdir(self.root_dir):
             file_path = os.path.join(self.root_dir, file)
+            # 类别下每个视频的名字
             video_files = [name for name in os.listdir(file_path)]
 
             train_and_valid, test = train_test_split(video_files, test_size=0.2, random_state=42)

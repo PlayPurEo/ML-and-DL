@@ -26,6 +26,7 @@ wangzhong
     * GAN: 对抗生成网络实战
     * tensor-board: pytorch可视化工具
     * videoprocess: c3d网络模型实战
+    * template：数据load + 网络模型 + 模型训练的模板
 --- 
 ## 注意！
 >数学公式推导的md文件用typora写的，
@@ -34,6 +35,18 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.21更新
+* 增加数据读取，模型创建，模型训练的一体化模板，只需更改json文件，输入配置化参数即可
+    1. 入口为train.py
+    2. parse_config.py读取参数，并且会写入当前运行的文件夹下，提供函数自行创建类
+    3. base文件夹下是loader和trainer的基类，拥有基础的一些变量和函数
+    4. loader文件夹下是实际的loader类，直接进行data的读取
+    5. logger文件夹是日志相关和可视化工具
+    6. model文件夹下是实际的网络模型
+    7. trainer文件夹下继承了trainer的基类，主要是实现每个epoch的训练过程，字典形式返回loss，acc，topKacc的average
+    8. saved文件夹保存网络模型和可视化数据还有打印的日志
+    9. 注意，模板不支持cpu和gpu跨读取模型数据，需要自行处理map_location参数
+---
 ### 2021.01.18更新
 * 新增阅读论文c3d网络模型进行视频动作分类
 * c3d-UCF-101项目实战（论文代码复现）

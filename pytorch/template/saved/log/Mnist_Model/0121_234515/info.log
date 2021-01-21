@@ -1,0 +1,54 @@
+2021-01-21 23:45:15,437 - train - INFO - MnistModel(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+)
+2021-01-21 23:45:15,439 - trainer - WARNING - Warning: There's no GPU available on this machine,training will be performed on CPU.
+2021-01-21 23:45:15,441 - trainer - WARNING - Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2021-01-21 23:45:37,965 - trainer - INFO -     epoch          : 1
+2021-01-21 23:45:37,965 - trainer - INFO -     loss           : 0.6749295030159973
+2021-01-21 23:45:37,965 - trainer - INFO -     accuracy       : 0.7853810511171293
+2021-01-21 23:45:37,965 - trainer - INFO -     top_k_acc      : 0.9224436145903858
+2021-01-21 23:45:37,965 - trainer - INFO -     val_loss       : 0.11741376549322555
+2021-01-21 23:45:37,965 - trainer - INFO -     val_accuracy   : 0.9630746580547113
+2021-01-21 23:45:37,965 - trainer - INFO -     val_top_k_acc  : 0.9966755319148937
+2021-01-21 23:45:37,979 - trainer - INFO - Saving checkpoint: saved/models/Mnist_Model/0121_234515/checkpoint-epoch1.pth ...
+2021-01-21 23:45:37,981 - trainer - INFO - Saving current best: model_best.pth ...
+2021-01-21 23:46:00,383 - trainer - INFO -     epoch          : 2
+2021-01-21 23:46:00,384 - trainer - INFO -     loss           : 0.2761337248105291
+2021-01-21 23:46:00,384 - trainer - INFO -     accuracy       : 0.9191588735612729
+2021-01-21 23:46:00,384 - trainer - INFO -     top_k_acc      : 0.9868531017264727
+2021-01-21 23:46:00,384 - trainer - INFO -     val_loss       : 0.07934868137570138
+2021-01-21 23:46:00,384 - trainer - INFO -     val_accuracy   : 0.9725493920972644
+2021-01-21 23:46:00,384 - trainer - INFO -     val_top_k_acc  : 0.9986702127659575
+2021-01-21 23:46:00,394 - trainer - INFO - Saving checkpoint: saved/models/Mnist_Model/0121_234515/checkpoint-epoch2.pth ...
+2021-01-21 23:46:00,398 - trainer - INFO - Saving current best: model_best.pth ...
+2021-01-21 23:46:24,785 - trainer - INFO -     epoch          : 3
+2021-01-21 23:46:24,785 - trainer - INFO -     loss           : 0.22434931859303425
+2021-01-21 23:46:24,786 - trainer - INFO -     accuracy       : 0.9356328283683141
+2021-01-21 23:46:24,786 - trainer - INFO -     top_k_acc      : 0.9891857439065674
+2021-01-21 23:46:24,786 - trainer - INFO -     val_loss       : 0.06369232176307668
+2021-01-21 23:46:24,786 - trainer - INFO -     val_accuracy   : 0.9786759118541033
+2021-01-21 23:46:24,786 - trainer - INFO -     val_top_k_acc  : 0.9991688829787234
+2021-01-21 23:46:24,797 - trainer - INFO - Saving checkpoint: saved/models/Mnist_Model/0121_234515/checkpoint-epoch3.pth ...
+2021-01-21 23:46:24,799 - trainer - INFO - Saving current best: model_best.pth ...
+2021-01-21 23:46:47,601 - trainer - INFO -     epoch          : 4
+2021-01-21 23:46:47,601 - trainer - INFO -     loss           : 0.19657847874961193
+2021-01-21 23:46:47,601 - trainer - INFO -     accuracy       : 0.942651912660799
+2021-01-21 23:46:47,601 - trainer - INFO -     top_k_acc      : 0.9917960815842926
+2021-01-21 23:46:47,601 - trainer - INFO -     val_loss       : 0.05942668456663477
+2021-01-21 23:46:47,601 - trainer - INFO -     val_accuracy   : 0.980955547112462
+2021-01-21 23:46:47,601 - trainer - INFO -     val_top_k_acc  : 0.9991688829787234
+2021-01-21 23:46:47,612 - trainer - INFO - Saving checkpoint: saved/models/Mnist_Model/0121_234515/checkpoint-epoch4.pth ...
+2021-01-21 23:46:47,615 - trainer - INFO - Saving current best: model_best.pth ...
+2021-01-21 23:47:09,007 - trainer - INFO -     epoch          : 5
+2021-01-21 23:47:09,007 - trainer - INFO -     loss           : 0.17870329809485452
+2021-01-21 23:47:09,007 - trainer - INFO -     accuracy       : 0.9481132574475288
+2021-01-21 23:47:09,008 - trainer - INFO -     top_k_acc      : 0.9931686907582938
+2021-01-21 23:47:09,008 - trainer - INFO -     val_loss       : 0.0520344609790977
+2021-01-21 23:47:09,008 - trainer - INFO -     val_accuracy   : 0.9820241261398177
+2021-01-21 23:47:09,008 - trainer - INFO -     val_top_k_acc  : 0.9988364361702128
+2021-01-21 23:47:09,019 - trainer - INFO - Saving checkpoint: saved/models/Mnist_Model/0121_234515/checkpoint-epoch5.pth ...
+2021-01-21 23:47:09,022 - trainer - INFO - Saving current best: model_best.pth ...
