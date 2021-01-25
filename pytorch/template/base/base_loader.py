@@ -53,7 +53,7 @@ class BaseDataLoader(DataLoader):
         train_sampler = SubsetRandomSampler(train_idx)#采样器方式，如果样本不均衡的话也可以选择WeightedRandomSampler方法
         valid_sampler = SubsetRandomSampler(valid_idx)
 
-        # 已经打乱了， 可以设为False，没啥用了
+        # 已经打乱了，因为sample有了，如果shuffle为True，会报错，看dataloader的源码
         self.shuffle = False
         self.n_samples = len(train_idx)
 
