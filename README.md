@@ -36,6 +36,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.27更新
+* 增加论文googlenet v1和v2
+    1. v1为第一个正式的goolenet的网络模型，2014分类第一（多模型下）
+    2. v2主要是提出了革命性的Batch Normalization
+---
 ### 2021.01.25更新
 * pytorch-vgg-16代码复现实战
     1. 数据集同样为kaggle猫狗大战，抽取这个数据放到DATA中，请自行下载数据
