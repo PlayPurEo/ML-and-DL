@@ -36,6 +36,14 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.28更新
+* 增加论文resnet-cifar代码复现实战
+    1. cifar数据集自行下载：[cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html)
+    2. 模型为针对cifar数据集的resnet20，已经在tools文件夹中
+    3. 增加混淆矩阵，方便查看训练和测试结果，也可以统计recall和precision
+    4. GPU1070耗时2小时多一点，best acc为91.79%，跟论文上差不多，很真实！
+* 增加resnet论文
+---
 ### 2021.01.27更新
 * 增加论文googlenet v1和v2
     1. v1为第一个正式的goolenet的网络模型，2014分类第一（多模型下）
