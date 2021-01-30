@@ -36,6 +36,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.01.31更新
+* 论文增加fast-rcnn和yolo v3
+* yolo-v3的pytorch的简单实战的开源项目学习
+    1. 地址：[yolov3](https://github.com/eriklindernoren/PyTorch-YOLOv3) 
+---
 ### 2021.01.28更新
 * 增加论文resnet-cifar代码复现实战
     1. cifar数据集自行下载：[cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html)
