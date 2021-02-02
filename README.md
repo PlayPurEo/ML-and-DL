@@ -12,6 +12,10 @@ wangzhong
 * ### dlmodel
     * 深度学习主要模型复现，主要是CNN方向
     * 深度之眼论文精读代码复现
+    * alex：alexnet-pytorch复现实战
+    * vgg： vgg-pytorch复现实战
+    * resnet： resnet-pytorch-cifar实战
+    * yolov3： yolov3-pytorch-voc2007实战，详情参考yolov3下的readme
 * ### math
     * 算法数学原理推导
 * ### papers
@@ -36,6 +40,11 @@ wangzhong
 
 ## 更新日志
 
+### 2021.02.02更新
+* yolov3-pytorch-voc2007实战
+  1. 具体请查看dlmodel/yolov3下的readme文档
+  2. 后续可能会在其他平台放出我预训练好的model，可以自行下载进行迁移学习，比如训练coco数据集
+---
 ### 2021.01.31更新
 * 论文增加fast-rcnn和yolo v3
 * yolo-v3的pytorch的简单实战的开源项目学习
